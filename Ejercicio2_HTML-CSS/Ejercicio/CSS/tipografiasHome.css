@@ -1,0 +1,46 @@
+h1{
+    font-family:'Raleway', sans-serif;
+    color: black;
+    margin-left: 450px;
+}
+h2{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(37, 36, 36);
+    font-size: 60px;
+    opacity: 100%;
+    margin-left: 470px;
+    margin-top: 300px;
+}
+
+#text{
+    font-size: 100px;
+    position: absolute;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.5);
+    margin-top: 500;
+}
+
+ul{
+    color:black;
+    font-family:  'Work Sans', sans-serif;
+    opacity: 50%;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 420;
+}
+
+.redes{
+    position: absolute;
+    top: 220px;
+    margin-left: 500;
+    font-size: 20px;
+
+}
+
+div{
+	margin-left: 40px;
+
+}
+
+
+
