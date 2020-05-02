@@ -1,0 +1,168 @@
+    body{
+        background-image: url("/images/bg-body.png");
+    }
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /*IMAGEN SUPERIOR-------------------------------------------*/
+    .redondeado{
+        border-radius: 180px;
+        border: 1px solid rgb(70, 69, 69);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    /*LISTA DE NAVEGACION---------------------------------------*/
+    .main-nav ul li {
+        list-style:none;
+        float: left;
+        text-align: center;
+        background-color: rgb(63, 60, 60);
+        margin-bottom: 20px;
+        height: 50px;
+        width: 180px;
+        padding: 12.5px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        box-sizing: border-box;
+        margin-right: 20px;
+    }
+                /*Modif margen para la ultima opcion derechas*/
+                .main-nav ul li:nth-child(6){
+                  margin-right: 0px;
+                }
+        /*cambios puntualmente al texto*/
+        .main-nav ul li a{
+            color: white;
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: 20px;
+         }
+
+    .main-nav ul {
+        padding: 0;
+        border-right: 20px;
+    }
+
+    /*BANNER----------------------------------------------------*/
+    .banner img{
+        width: 1180px;
+        clear: both;
+    }
+
+    /*PRODUCTOS*-------------------------------------------------/
+    /*modif todas las imagenes*/
+    .photo{
+        width: 380px;
+        margin-top: 30px;
+    }
+
+    /*Toda la seccion del producto*/
+    .product{
+        width: 380px;
+        float: left;
+        margin-right: 20px;
+    }
+            /*Modif margen para 2 ultimas imag derechas*/
+            .product:nth-child(3), .product:nth-child(6){
+                margin-right: 0px;
+            }
+    /*Contenedor de la imagen*/
+    .vip-products .product .photo-container{
+        width: 380px;
+        position: relative;
+        z-index: 5;
+        margin-bottom: 0px;
+    }
+    /*Texto BAJO las imagenes*/
+    .vip-products .product h2{
+        margin: 0;
+        z-index: 10;
+        position: relative;
+        bottom: 80px;
+    }
+     p{
+        margin: 0;
+        position: relative;
+        z-index: 6;
+        bottom: 50px;
+        font-size: 22px;
+    }
+
+    /*imagen SOBRE las imagenes*/
+    .special{
+        position: relative;
+        z-index: 10;
+        bottom: 206px;
+        left:300px;
+    }
+
+    /*Texto SOBRE las imagenes*/
+    .zoom{
+        background-color: rgba(0, 0, 0,0.5);
+        position: relative;
+        float: right;
+        color: white;
+        padding: 2%;
+        z-index:10;
+        bottom:190px;
+        width: 380px;
+        text-transform: uppercase;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    /*cartelito VER MAS*/
+    .more{
+        background-color: rgb(156, 12, 12);
+        color: seashell;
+        padding: 5px;
+        box-sizing: border-box;
+        position: relative;
+        bottom: 30px;
+    }
+    /*FIN DE LA PAGINA-----------------------------------------*/
+
+    footer{
+        clear: both;
+        width: 1200px;
+        height:100px;
+        background-color: rgb(144, 35, 35);
+        border-top-right-radius:20px;
+        border-top-left-radius:20px;
+
+    }
+
+    .main-footer ul li {
+        list-style:none;
+        float: left;
+        text-align: center;
+        background-color: rgb(144, 35, 35);
+        margin-top: 40px;
+        box-sizing: border-box;
+    }
+        /*cambios puntualmente al texto*/
+        .main-footer ul li a{
+        color: white;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        border-right:1px solid white;
+         }
+
+    .main-footer ul {
+        border-top: 30px;
+        padding: 0;
+        margin-left: 400px;
+    }
+
+
+
+

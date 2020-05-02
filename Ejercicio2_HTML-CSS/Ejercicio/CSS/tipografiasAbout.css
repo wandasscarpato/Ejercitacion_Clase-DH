@@ -84,4 +84,40 @@ h3{
 }
 
 
+.imagen {
+        width: 1900;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+}
+
+.header-container {
+    position: absolute;
+    right: 30px;
+    z-index: 10;
+    font-size: 20;
+    background-color: rgba(222, 222, 222, 0.5);
+    height: 60px;
+    margin-top: 24px;
+}
+
+.opciones {
+    right: 0;
+    top: -10;
+    position: absolute;
+    font-size: 30px;
+    font-family:  'Work Sans', sans-serif;
+
+}
+
+.redes {
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    z-index: 10;
+    font-size: 20px;
+}
+
+
 
