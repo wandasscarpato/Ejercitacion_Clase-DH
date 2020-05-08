@@ -11,7 +11,7 @@
     /*IMAGEN SUPERIOR-------------------------------------------*/
     .redondeado{
         border-radius: 180px;
-        border: 1px solid rgb(70, 69, 69);
+        border: 1px solid rgb(216, 215, 215);
         display: block;
         margin-left: auto;
         margin-right: auto;
